@@ -10,7 +10,7 @@ function Home() {
   return (
     <section className="bg-[#1e1e1e]">
       <PageNav type="horizontal" />
-      <div className="mt-36 flex items-center justify-between px-8 pb-24 ">
+      <div className="mt-36 max-w-7xl mx-auto flex items-center justify-between px-6  pb-24 ">
         <article>
           <h1 className="mb-2 text-6xl font-semibold tracking-wider">Mista4chun</h1>
           <Typewriter

@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         bigFont: ["Recursive", "sans-serif"],
+        redHat: ["Red Hat Text", "sans-serif"]
       },
     },
   },

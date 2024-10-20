@@ -7,7 +7,7 @@ import { PiMarkdownLogoFill } from "react-icons/pi";
 
 function PageNav({ type }) {
   const styles = {
-    vertical: "text-sm leading-relaxed ",
+    vertical: "text-xs leading-relaxed ",
     horizontal: "flex gap-8   px-3  border divide-x divide-[#2b2b2b] text-sm py-1 bg-[#181818] border-[#2b2b2b]",
   };
 
