@@ -8,7 +8,7 @@ import { PiMarkdownLogoFill } from "react-icons/pi";
 function PageNav({ type }) {
   const styles = {
     vertical: "text-sm leading-relaxed ",
-    horizontal: "flex gap-8   px-3  border divide-x text-sm py-1",
+    horizontal: "flex gap-8   px-3  border divide-x divide-[#2b2b2b] text-sm py-1 bg-[#181818] border-[#2b2b2b]",
   };
 
   return (
@@ -19,7 +19,7 @@ function PageNav({ type }) {
             to="/"
             className={
               type === "vertical"
-                ? "flex items-center gap-1 pl-4 hover:bg-slate-100"
+                ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
                 : "flex items-center gap-1 pl-4"
             }
           >
@@ -34,7 +34,7 @@ function PageNav({ type }) {
             to="/about"
             className={
               type === "vertical"
-                ? "flex items-center gap-1 pl-4 hover:bg-slate-100"
+                ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
                 : "flex items-center gap-1 pl-4"
             }
           >
@@ -49,7 +49,7 @@ function PageNav({ type }) {
             to="/resume"
             className={
               type === "vertical"
-                ? "flex items-center gap-1 pl-4 hover:bg-slate-100"
+                ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
                 : "flex items-center gap-1 pl-4"
             }
           >
@@ -64,7 +64,7 @@ function PageNav({ type }) {
             to="/projects"
             className={
               type === "vertical"
-                ? "flex items-center gap-1 pl-4 hover:bg-slate-100"
+                ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
                 : "flex items-center gap-1 pl-4"
             }
           >
@@ -79,7 +79,7 @@ function PageNav({ type }) {
             to="/github"
             className={
               type === "vertical"
-                ? "flex items-center gap-1 pl-4 hover:bg-slate-100"
+                ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
                 : "flex items-center gap-1 pl-4"
             }
           >

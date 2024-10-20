@@ -7,7 +7,7 @@ function Header() {
         <div className="w-3 h-3 rounded-full bg-green-400"></div>
       </div>
      
-        <h1 className="rounded-md border  mx-auto px-12 text-sm my-0.5">Mista4chun - Visual Studio Code</h1>
+        <h1 className="rounded-md border border-gray-800 mx-auto px-12 text-sm my-0.5">Mista4chun - Visual Studio Code</h1>
      
     </div>
   );

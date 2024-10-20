@@ -8,7 +8,7 @@ function Side() {
   const [show, setShow] = useState(true);
 
   return (
-    <div className="w-44 max-w-md border">
+    <div className="w-56 max-w-md border border-[#2b2b2b]">
       <div className="mb-3 flex items-center justify-between px-4">
         <h1 className="text-sm">EXPLORER</h1>
         <VscEllipsis />
