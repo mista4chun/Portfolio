@@ -7,7 +7,7 @@ import { FaReact } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="flex items-center justify-between border border-[#2b2b2b] text-gray-400 pl-2 pr-4 text-sm tracking-wider">
+    <footer className="flex items-center justify-between border border-[#2b2b2b] text-gray-400 pl-2 pr-4 md:text-sm text-xs tracking-wider">
       <article className="flex items-center gap-2.5">
         <a
           href="https://github.com/mista4chun/Portfolio"
@@ -21,7 +21,7 @@ function Footer() {
           <GoAlert />
         </div>
       </article>
-      <article className="flex items-center space-x-8">
+      <article className="flex items-center space-x-4 md:space-x-8 ">
         <div className="flex items-center gap-1">
           <FaReact  />
           <p>Powered by React </p>

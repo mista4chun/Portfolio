@@ -8,7 +8,8 @@ import { PiMarkdownLogoFill } from "react-icons/pi";
 function PageNav({ type }) {
   const styles = {
     vertical: "text-xs leading-relaxed ",
-    horizontal: "flex gap-8   px-3  border divide-x divide-[#2b2b2b] text-sm py-1 bg-[#181818] border-[#2b2b2b]",
+    horizontal:
+      "flex items-center  border  md:text-sm  bg-[#181818] border-[#2b2b2b]",
   };
 
   return (
@@ -17,10 +18,19 @@ function PageNav({ type }) {
         <li>
           <NavLink
             to="/"
-            className={
-              type === "vertical"
-                ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
-                : "flex items-center gap-1 pl-4"
+            className={({ isActive }) =>
+              [
+                type === "vertical"
+                  ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
+                  : "flex items-center gap-1 pl-4",
+                isActive
+                  ? type === "horizontal"
+                    ? "border-t border-[#01b6cd] bg-[#1e1e1e] px-4 py-1"
+                    : ""
+                  : type === "horizontal"
+                    ? "border border-[#2b2b2b] px-4 py-1"
+                    : "",
+              ].join(" ")
             }
           >
             <FaReact className="text-[#01b6cd]" />
@@ -32,10 +42,19 @@ function PageNav({ type }) {
         <li>
           <NavLink
             to="/about"
-            className={
-              type === "vertical"
-                ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
-                : "flex items-center gap-1 pl-4"
+            className={({ isActive }) =>
+              [
+                type === "vertical"
+                  ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
+                  : "flex items-center gap-1 pl-4",
+                isActive
+                  ? type === "horizontal"
+                    ? "border-t border-[#01b6cd] bg-[#1e1e1e] px-4 py-1"
+                    : ""
+                  : type === "horizontal"
+                    ? "border border-[#2b2b2b] px-4 py-1"
+                    : "",
+              ].join(" ")
             }
           >
             <FaHtml5 className="text-[#e44d26]" />
@@ -47,10 +66,19 @@ function PageNav({ type }) {
         <li>
           <NavLink
             to="/resume"
-            className={
-              type === "vertical"
-                ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
-                : "flex items-center gap-1 pl-4"
+            className={({ isActive }) =>
+              [
+                type === "vertical"
+                  ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
+                  : "flex items-center gap-1 pl-4",
+                isActive
+                  ? type === "horizontal"
+                    ? "border-t border-[#01b6cd] bg-[#1e1e1e] px-4 py-1"
+                    : ""
+                  : type === "horizontal"
+                    ? "border border-[#2b2b2b] px-4 py-1"
+                    : "",
+              ].join(" ")
             }
           >
             <LuFileJson2 className="text-[#f8be2d]" />
@@ -58,14 +86,23 @@ function PageNav({ type }) {
           </NavLink>
         </li>
       </ul>
-      <ul>
+      <ul className="hidden md:block">
         <li>
           <NavLink
             to="/projects"
-            className={
-              type === "vertical"
-                ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
-                : "flex items-center gap-1 pl-4"
+            className={({ isActive }) =>
+              [
+                type === "vertical"
+                  ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
+                  : "flex items-center gap-1 pl-4",
+                isActive
+                  ? type === "horizontal"
+                    ? "border-t border-[#01b6cd] bg-[#1e1e1e] px-4 py-1"
+                    : ""
+                  : type === "horizontal"
+                    ? "border border-[#2b2b2b] px-4 py-1"
+                    : "",
+              ].join(" ")
             }
           >
             <FaJs className="text-[#ffca28]" />
@@ -73,14 +110,23 @@ function PageNav({ type }) {
           </NavLink>
         </li>
       </ul>
-      <ul>
+      <ul className="hidden md:block">
         <li>
           <NavLink
             to="/github"
-            className={
-              type === "vertical"
-                ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
-                : "flex items-center gap-1 pl-4"
+            className={({ isActive }) =>
+              [
+                type === "vertical"
+                  ? "flex items-center gap-1 pl-4 hover:bg-gray-800/50"
+                  : "flex items-center gap-1 pl-4",
+                isActive
+                  ? type === "horizontal"
+                    ? "border-t border-[#01b6cd] bg-[#1e1e1e] px-4 py-1"
+                    : ""
+                  : type === "horizontal"
+                    ? "border border-[#2b2b2b] px-4 py-1"
+                    : "",
+              ].join(" ")
             }
           >
             <PiMarkdownLogoFill className="text-[#42a5f5]" />

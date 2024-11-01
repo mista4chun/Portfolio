@@ -12,39 +12,61 @@ import { LuInstagram } from "react-icons/lu";
 
 const Socials = [
   {
-    icon: <FaWhatsapp className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />,
+    icon: (
+      <FaWhatsapp className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />
+    ),
     path: "https://web.facebook.com/hilary.samson",
   },
   {
-    icon: < CiFacebook className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />,
+    icon: (
+      <CiFacebook className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />
+    ),
     path: "https://web.facebook.com/hilary.samson",
   },
   {
-    icon: <FaXTwitter className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />,
+    icon: (
+      <FaXTwitter className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />
+    ),
     path: "https://x.com/mista4chun",
   },
   {
-    icon: <CiLinkedin className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />,
+    icon: (
+      <CiLinkedin className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />
+    ),
     path: "https://web.facebook.com/hilary.samson",
   },
   {
-    icon: <AiOutlineMail className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />,
+    icon: (
+      <AiOutlineMail className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />
+    ),
     path: "https://web.facebook.com/hilary.samson",
   },
   {
-    icon: <LuInstagram className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />,
+    icon: (
+      <LuInstagram className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />
+    ),
     path: "https://www.instagram.com/fortune_mg/",
   },
 ];
 
 function Sidebar() {
   return (
-    <div className="flex w-14 flex-col items-center justify-between border border-[#2b2b2b] py-2">
+    <div className="flex w-10 flex-col items-center justify-between border border-[#2b2b2b] py-2 md:w-14">
       <div className="flex flex-col items-center gap-4">
-        <NavLink to="/">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive ? "border-l-2 border-[#01b6cd] px-4" : ""
+          }
+        >
           <VscFiles className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />
         </NavLink>
-        <NavLink to="/github">
+        <NavLink
+          to="/github"
+          className={({ isActive }) =>
+            isActive ? "border-l-2 border-[#01b6cd] px-4" : ""
+          }
+        >
           <FaGithub className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />
         </NavLink>
 
@@ -57,10 +79,20 @@ function Sidebar() {
         ))}
       </div>
       <div className="flex flex-col items-center gap-3">
-        <NavLink to="/about">
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive ? "border-l-2 border-[#01b6cd] px-4" : ""
+          }
+        >
           <VscAccount className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />
         </NavLink>
-        <NavLink to="/settings">
+        <NavLink
+          to="/settings"
+          className={({ isActive }) =>
+            isActive ? "border-l-2 border-[#01b6cd] px-4" : ""
+          }
+        >
           <VscSettingsGear className="h-6 w-6 text-slate-400/50 hover:text-gray-200" />
         </NavLink>
       </div>
