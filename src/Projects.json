@@ -30,7 +30,7 @@
     "id": 4,
     "name": "Link Shortener",
     "thumbnail": "./images/large2.jpeg",
-    "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
+    "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know ",
     "tags": ["React", "Tailwindcss"],
     "source_code": "https://github.com/mista4chun/shortly.git",
     "demo": "https://shortlyx.netlify.app"
