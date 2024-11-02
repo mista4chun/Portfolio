@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "e-commerce Product page",
-    "thumbnail":"./images/large4.jpeg",
+    "thumbnail": "./images/large4.jpeg",
     "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
     "tags": ["React", "Tailwindcss"],
     "source_code": "https://github.com/mista4chun/e-commerce-product-page.git",
@@ -29,24 +29,25 @@
   {
     "id": 4,
     "name": "Link Shortener",
-    "thumbnail":"./images/large2.jpeg",
+    "thumbnail": "./images/large2.jpeg",
     "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
     "tags": ["React", "Tailwindcss"],
-    "source_code": "https://github.com/Gozkybrain/My-Guessing-Game-Lite",
-    "demo": "https://gozkybrain.github.io/My-Guessing-Game-Lite"
+    "source_code": "https://github.com/mista4chun/shortly.git",
+    "demo": "https://shortlyx.netlify.app"
   },
   {
     "id": 5,
     "name": "FlixxApp",
-    "thumbnail":"./images/large5.jpeg",
+    "thumbnail": "./images/large5.jpeg",
     "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
     "tags": ["Javascript", "Html", "CSS"],
     "source_code": "https://github.com/mista4chun/flixxApp.git",
     "demo": "https://flixxappx.netlify.app"
-  }, {
+  },
+  {
     "id": 6,
     "name": "Tracalorie",
-    "thumbnail":"./images/large6.jpeg",
+    "thumbnail": "./images/large6.jpeg",
     "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
     "tags": ["Javascript", "Html", "CSS"],
     "source_code": "https://github.com/mista4chun/Tracalorie-without-webpack.git",
