@@ -55,7 +55,7 @@ function Home() {
           <img
             src="./avatar.jpg"
             alt=""
-            className="hidden h-72 w-72 rounded-full border-4 border-gray-900 md:block"
+            className="hidden h-72 w-72 rounded-full border-4 border-gray-900 lg:block"
           />
         </article>
 
@@ -73,11 +73,11 @@ function Home() {
       </div>
       
       <div className="mx-auto  -mt-5 flex max-w-2xl items-center space-x-8 px-8 md:hidden">
-        <button className="bg-[#01b6cd] px-4 py-2 transition-all duration-150 hover:-translate-y-0.5 hover:shadow-lg">
+        <button className="bg-[#01b6cd] px-4 py-2 transition-all duration-150 hover:-translate-y-0.5 hover:shadow-lg text-gray-800 font-semibold">
      
           <Link to="/projects">My Work</Link>
         </button>
-        <button className="border border-[#01b6cd] px-4 py-2 transition-all duration-150 hover:-translate-y-0.5 hover:shadow-lg">
+        <button className="border border-[#01b6cd] px-4 py-2 transition-all duration-150 hover:-translate-y-0.5 hover:shadow-lg font-semibold">
           <Link to="/resume">My Resume</Link>
         </button>
       </div>

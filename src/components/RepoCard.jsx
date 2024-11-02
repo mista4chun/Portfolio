@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 function RepoCard({ repo }) {
   return (
-    <div className="flex flex-col items-start justify-between rounded-sm bg-[#1f2429] px-2 py-3">
+    <div className="flex flex-col items-start justify-between rounded-md bg-[#1f2429] border border-[#333333] px-2 py-3">
       <h3 className="font-semibold text-[#01b6cd]">{repo.name}</h3>
 
       <p>

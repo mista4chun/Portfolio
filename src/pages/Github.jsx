@@ -60,7 +60,7 @@ function GitHubData() {
       <PageNav type="horizontal" />
 
       <div className=" w-fit md:px-4 px-2 mx-auto text-center">
-        <div className="my-7 rounded-md bg-[#1f2429] pt-6">
+        <div className="my-7 rounded-md bg-[#1f2429] border border-[#333333] pt-6">
           <h1 className="text-xl font-semibold tracking-wider">{user.name}</h1>
           <div className="flex items-center justify-center gap-2">
             <img src={user.avatar_url} alt={user.login} />
@@ -69,7 +69,7 @@ function GitHubData() {
               {user.public_repos} repos
             </p>
           </div>
-          <button className="my-4 rounded-md bg-[#01b6cd] px-6 py-1 font-semibold capitalize text-gray-300">
+          <button className="my-4 rounded-full bg-[#01b6cd] px-8 py-1 hover:bg-[#37b7cb] transition-opacity duration-150 font-semibold capitalize text-gray-800">
             <a href="https://github.com/mista4chun">open github</a>
           </button>
         </div>
