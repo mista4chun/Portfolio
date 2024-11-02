@@ -56,7 +56,7 @@ function GitHubData() {
   if (error) return <p className="flex items-center justify-center font-semibold text-3xl" >{error} 😢️</p>;
 
   return (
-    <section>
+    <section className="">
       <PageNav type="horizontal" />
 
       <div className=" w-fit md:px-4 px-2 mx-auto text-center">

@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
@@ -10,11 +11,13 @@ import Side from "./components/Side";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Settings from "./pages/Settings";
+import PageTitle from "./components/PageTitle";
 
 function App() {
   return (
-    <section className="grid h-screen grid-rows-[auto_1fr_auto]">
-      <BrowserRouter>
+    <BrowserRouter>
+      <section className="grid h-screen grid-rows-[auto_1fr_auto]">
+        <PageTitle />
         <Header />
         <div className="grid grid-cols-[auto_auto_1fr]">
           <Sidebar />
@@ -31,8 +34,8 @@ function App() {
           </Routes>
         </div>
         <Footer />
-      </BrowserRouter>
-    </section>
+      </section>
+    </BrowserRouter>
   );
 }
 
