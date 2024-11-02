@@ -35,7 +35,7 @@ function Resume() {
             <article className="mt-2 flex flex-col space-y-12">
               <div className="pb-2.5">
                 <p className="font-semibold uppercase text-blue-400">
-                  Modern HTML & CSS From The Beginning/tailwindcss
+                  Modern HTML & CSS From The Beginning
                 </p>
                 <p>Udemy INC. and Traversy Media.</p>
                 <p>2023</p>
@@ -56,7 +56,7 @@ function Resume() {
               </div>
               <div className="pb-2">
                 <p className="font-semibold uppercase text-blue-400">
-                  The Ultimate React course, Next.js, Redux, supabase
+                  The Ultimate React course, Next.js, Redux
                 </p>
                 <p>Udemy INCt</p>
                 <p>2024</p>
