@@ -32,7 +32,7 @@ function Resume() {
                 </div>
               </div>
             </article>
-            <article className="mt-2 flex flex-col space-y-12">
+            <article className="mt-2 flex flex-col md:space-y-12 space-y-7">
               <div className="pb-2.5">
                 <p className="font-semibold uppercase text-blue-400">
                   Modern HTML & CSS From The Beginning
@@ -40,7 +40,7 @@ function Resume() {
                 <p>Udemy INC. and Traversy Media.</p>
                 <p>2023</p>
               </div>
-              <div className="pb-2">
+              <div className="pb-2 ">
                 <p className="font-semibold uppercase text-blue-400">
                   Modern JavaScript From The Beginning 2.0
                 </p>
