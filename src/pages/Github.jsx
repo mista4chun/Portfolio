@@ -63,7 +63,7 @@ function GitHubData() {
         <div className="my-7 rounded-md bg-[#1f2429] border border-[#333333] pt-6">
           <h1 className="text-xl font-semibold tracking-wider">{user.name}</h1>
           <div className="flex items-center justify-center gap-2">
-            <img src={user.avatar_url} alt={user.login} />
+            <img src={user.avatar_url} alt={user.login} className="w-20 rounded-full" />
             <p>{user.followers} followers</p>
             <p className="border-x-2 border-[#01b6cd] px-3">
               {user.public_repos} repos
