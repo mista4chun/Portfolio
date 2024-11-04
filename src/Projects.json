@@ -41,8 +41,8 @@
     "thumbnail": "./images/large5.jpeg",
     "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
     "tags": ["Javascript", "Html", "CSS"],
-    "source_code": "https://github.com/mista4chun/flixxApp.git",
-    "demo": "https://flixxappx.netlify.app"
+    "source_code": "https://github.com/mista4chun/flixx.git",
+    "demo": "https://flixx-olive.vercel.app/"
   },
   {
     "id": 6,
