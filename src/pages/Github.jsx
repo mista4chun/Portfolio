@@ -59,7 +59,7 @@ function GitHubData() {
     <section className="">
       <PageNav type="horizontal" />
 
-      <div className=" w-fit md:px-4 px-2 mx-auto text-center">
+      <div className=" w-full md:px-4 px-2 mx-auto text-center">
         <div className="my-7 rounded-md bg-[#1f2429] border border-[#333333] pt-6">
           <h1 className="text-xl font-semibold tracking-wider">{user.name}</h1>
           <div className="flex items-center justify-center gap-2">
