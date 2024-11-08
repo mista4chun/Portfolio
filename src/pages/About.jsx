@@ -13,7 +13,7 @@ function About() {
   return (
     <section className="bg-[#1e1e1e]">
       <PageNav type="horizontal" />
-      <div className="mx-auto mt-3 max-w-7xl ">
+      <div className="mx-auto mt-3 max-w-full px-6 ">
         <img
           src="./avatar.jpg"
           alt=""
@@ -83,7 +83,7 @@ function About() {
         <h2 className="mb-3 text-left text-3xl font-semibold md:text-center">
           skills
         </h2>
-        <article className="grid items-center gap-5 mb-5 md:grid-cols-2 px-3">
+        <article className="grid items-center gap-14 mb-5 md:grid-cols-2 px-3">
           <div className="flex flex-col space-y-3">
             <div>
               <h3>Html & CSS</h3>
