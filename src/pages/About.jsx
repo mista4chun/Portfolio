@@ -13,7 +13,7 @@ function About() {
   return (
     <section className="bg-[#1e1e1e]">
       <PageNav type="horizontal" />
-      <div className="mx-auto mt-3 max-w-6xl px-3">
+      <div className="mx-auto mt-3 max-w-7xl ">
         <img
           src="./avatar.jpg"
           alt=""

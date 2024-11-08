@@ -11,7 +11,7 @@ function Home() {
   return (
     <section className="bg-[#1e1e1e]">
       <PageNav type="horizontal" />
-      <div className="mx-auto mt-36 md:flex max-w-2xl items-center justify-between px-6 pb-24 md:max-w-7xl">
+      <div className="mx-auto mt-36 md:flex max-w-2xl items-center justify-between  pb-24 md:max-w-7xl">
         <article>
           <h1 className="mb-2 text-3xl font-semibold tracking-wider md:text-6xl">
             Mista4chun

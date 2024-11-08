@@ -5,7 +5,7 @@ function Resume() {
     <section className="bg-[#1e1e1e]">
       <PageNav type="horizontal" />
 
-      <div className="mx-auto mt-10 grid max-w-6xl px-8 lg:grid-cols-2">
+      <div className="mx-auto mt-10 grid max-w-7xl  lg:grid-cols-2">
         <div className="pb-6">
           <h1 className="px-6 pb-4 text-2xl font-bold">✧ Education History </h1>
           <div className="grid grid-cols-[auto_1fr]">
