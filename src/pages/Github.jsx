@@ -38,7 +38,6 @@ function GitHubData() {
           },
         );
         let repoData = await repoRes.json();
-       
 
         // Check if repos is an array, shuffle, and take top 4
         if (Array.isArray(repoData)) {
@@ -67,7 +66,7 @@ function GitHubData() {
   return (
     <section className="">
       <PageNav type="horizontal" />
-      {!isLoading ?(
+      {!isLoading ? (
         <>
           <div className="mx-auto w-full px-2 text-center md:px-4">
             <div className="my-7 rounded-md border border-[#333333] bg-[#1f2429] pt-6">
@@ -86,7 +85,13 @@ function GitHubData() {
                 </p>
               </div>
               <button className="my-4 rounded-full bg-[#01b6cd] px-8 py-1 font-semibold capitalize text-gray-800 transition-opacity duration-150 hover:bg-[#37b7cb]">
-                <a href="https://github.com/mista4chun">open github</a>
+                <a
+                  href="https://github.com/mista4chun"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  open github
+                </a>
               </button>
             </div>
 
@@ -102,7 +107,9 @@ function GitHubData() {
             />
           </div>{" "}
         </>
-      ): <Spinner />}
+      ) : (
+        <Spinner />
+      )}
     </section>
   );
 }
