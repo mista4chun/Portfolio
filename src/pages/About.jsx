@@ -20,7 +20,7 @@ function About() {
           className="h-32 w-32 rounded-full border-4 border-gray-900 md:hidden"
         />
         <h1 className="mb-3 text-left text-3xl font-semibold md:text-center">
-          Frontend Developer
+          Frontend Developer & Prompt Engineer
         </h1>
         <article className="grid-col-1 mb-8 grid items-center gap-2 md:grid-cols-2">
           <div className="-ml-4 flex items-center space-x-4 md:-ml-0">
