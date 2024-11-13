@@ -77,7 +77,7 @@ function Resume() {
           </h1>
           <div className="grid grid-cols-[auto_1fr]">
             <article className="px-6">
-              <div className="relative h-[600px] w-0.5 bg-gray-100">
+              <div className="relative h-[420px] w-0.5 bg-gray-100">
                 <div className="flex flex-col space-y-32">
                   <div>
                     <span className="absolute -ml-1.5 mt-4 h-3.5 w-3.5 rounded-full bg-blue-400"></span>
@@ -86,7 +86,7 @@ function Resume() {
                     <span className="absolute -ml-1.5 mt-9 h-3.5 w-3.5 rounded-full bg-blue-400"></span>
                   </div>
                   <div>
-                    <span className="absolute -ml-1.5 mt-4 h-3.5 w-3.5 rounded-full bg-blue-400"></span>
+                    <span className="absolute -ml-1.5 mt-16 h-3.5 w-3.5 rounded-full bg-blue-400"></span>
                   </div>
 
                   {/*<div>
