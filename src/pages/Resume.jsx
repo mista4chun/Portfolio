@@ -5,7 +5,7 @@ function Resume() {
     <section className="bg-[#1e1e1e]">
       <PageNav type="horizontal" />
 
-      <div className="mx-auto mt-10 grid max-w-7xl  lg:grid-cols-2">
+      <div className="mx-auto mt-10 grid max-w-7xl lg:grid-cols-2">
         <div className="pb-6">
           <h1 className="px-6 pb-4 text-2xl font-bold">✧ Education History </h1>
           <div className="grid grid-cols-[auto_1fr]">
@@ -32,7 +32,7 @@ function Resume() {
                 </div>
               </div>
             </article>
-            <article className="mt-2 flex flex-col md:space-y-12 space-y-7">
+            <article className="mt-2 flex flex-col space-y-7 md:space-y-12">
               <div className="pb-2.5">
                 <p className="font-semibold uppercase text-blue-400">
                   Modern HTML & CSS From The Beginning
@@ -40,7 +40,7 @@ function Resume() {
                 <p>Udemy INC. and Traversy Media.</p>
                 <p>2023</p>
               </div>
-              <div className="pb-2 ">
+              <div className="pb-2">
                 <p className="font-semibold uppercase text-blue-400">
                   Modern JavaScript From The Beginning 2.0
                 </p>
@@ -85,11 +85,11 @@ function Resume() {
                   <div>
                     <span className="absolute -ml-1.5 mt-9 h-3.5 w-3.5 rounded-full bg-blue-400"></span>
                   </div>
-                  {/* <div>
+                  <div>
                     <span className="absolute -ml-1.5 mt-4 h-3.5 w-3.5 rounded-full bg-blue-400"></span>
                   </div>
 
-                  <div>
+                  {/*<div>
                     <span className="absolute -ml-1.5 mt-4 h-3.5 w-3.5 rounded-full bg-blue-400"></span>
                   </div>
 
@@ -102,11 +102,20 @@ function Resume() {
             <article className="mt-2 flex flex-col space-y-12">
               <div className="pb-2.5">
                 <p className="font-semibold uppercase text-blue-400">
+                  Uplift Nigeria. Bauchi State, Nigeria
+                </p>
+                <p>Front-End Developer</p>
+                <p>remote</p>
+                <p>2024 - present</p>
+              </div>
+              <div className="pb-2">
+                <p className="font-semibold uppercase text-blue-400">
                   nHub Foundation
                 </p>
                 <p>Web Developer & Instructor</p>
                 <p>physical: Plateau State, Nigeria</p>
-                <p>2024 - Present</p>
+
+                <p>2023 - 2024</p>
               </div>
               <div className="pb-2">
                 <p className="font-semibold uppercase text-blue-400">
@@ -116,12 +125,8 @@ function Resume() {
                 <p> Sales Rep</p>
                 <p>2019</p>
               </div>
+
               {/* <div className="pb-2">
-                <p className="text-blue-400">Udemy frontend School</p>
-                <p>Learnt frontend developement</p>
-                <p>2022</p>
-              </div>
-              <div className="pb-2">
                 <p className="text-blue-400">Udemy frontend School</p>
                 <p>Learnt frontend developement</p>
                 <p>2022</p>
