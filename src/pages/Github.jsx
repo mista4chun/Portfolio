@@ -95,7 +95,7 @@ function GitHubData() {
               </button>
             </div>
 
-            <div className="mb-8 grid gap-5 md:grid-cols-4">
+            <div className="mb-8 grid gap-5 md:grid-cols-4 px-2 ">
               {repos.map((repo) => (
                 <RepoCard key={repo.id} repo={repo} />
               ))}
