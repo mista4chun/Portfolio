@@ -106,7 +106,7 @@ function Resume() {
                 </p>
                 <p>Front-End Developer</p>
                 <p>remote</p>
-                <p>2024 - present</p>
+                <p>2024 - Present</p>
               </div>
               <div className="pb-2">
                 <p className="font-semibold uppercase text-blue-400">
@@ -123,7 +123,7 @@ function Resume() {
                 </p>
                 <p>physical: Plateau State, Nigeria</p>
                 <p> Sales Rep</p>
-                <p>2019</p>
+                <p>2019 - 2020</p>
               </div>
 
               {/* <div className="pb-2">
