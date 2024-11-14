@@ -4,16 +4,17 @@ import Data from "../components/Data";
 
 function Projects() {
   return (
-    <div className="bg-[#1e1e1e] ">
+    <section className="bg-[#1e1e1e] ">
       <PageNav type="horizontal" />
-        <h1 className="mt-3 font-semibold max-w-7xl mx-auto px-4">Stuff I've built...</h1>
-      <div className="grid md:grid-cols-3 mt-6 gap-5 px-4 max-w-7xl mx-auto ">
-
-      {projects.map((project) => (
-        <Data project={project} key={project.id} />
-      ))}
+      <h1 className="mx-auto mt-3 max-w-7xl px-4 font-semibold">
+        Stuff I've built...
+      </h1>
+      <div className="mx-auto mt-6 grid max-w-7xl gap-5 px-4 md:grid-cols-3">
+        {projects.map((project) => (
+          <Data project={project} key={project.id} />
+        ))}
       </div>
-    </div>
+    </section>
   );
 }
 

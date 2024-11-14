@@ -19,7 +19,7 @@ function App() {
       <section className="grid h-screen grid-rows-[auto_1fr_auto]">
         <PageTitle />
         <Header />
-        <div className="grid grid-cols-[auto_auto_1fr] ">
+        <div className="grid grid-cols-[auto_auto_1fr]">
           <Sidebar />
           <Side />
 
