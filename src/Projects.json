@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Product list with cart",
-    "thumbnail": "./images/small.jpeg",
+    "thumbnail": "./images/preview.jpg",
     "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
     "tags": ["React", "Tailwindcss"],
     "source_code": "https://github.com/mista4chun/product-list-with-cart.git",

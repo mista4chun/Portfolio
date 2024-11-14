@@ -1,13 +1,13 @@
 function Data({ project }) {
   return (
     <div className="">
-      <div className="group relative w-72 uppercase md:w-fit">
+      <div className="group relative w-72  hover:scale-105 transition-all duration-150 uppercase md:w-fit ">
         <img
           src={project.thumbnail}
           alt=""
-          className="h-72 w-72 md:h-80 md:w-full"
+          className="h-72 w-72 md:h-80 md:w-full  rounded-3xl"
         />
-        <div className="absolute inset-0 group-hover:bg-black/50">
+        <div className="absolute inset-0 group-hover:bg-black/50 hover:rounded-3xl">
           <div className="absolute inset-0 flex items-center justify-center transition-all duration-500">
             <div className="flex flex-col space-y-8">
               <div className="hidden text-center group-hover:block">
