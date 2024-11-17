@@ -20,7 +20,7 @@ function Home() {
             text="Software Developer with React."
             speed={100}
             lastWordColor="#01b6cd"
-            fontSize="24px"
+           className="text-lg  md:text-3xl"
           />
           <div className="mt-8 hidden gap-8 text-center tracking-wider md:flex">
             <div className="flex flex-col items-center">

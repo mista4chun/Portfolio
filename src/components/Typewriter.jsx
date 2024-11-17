@@ -1,17 +1,18 @@
-import  { useEffect, useState, useCallback, useMemo } from "react";
+import { useEffect, useState, useCallback, useMemo } from "react";
 
 const Typewriter = ({
   text,
   speed,
   lastWordColor,
   cursorChar = "|",
-
+  className = '',
   cursorBlinkSpeed = 500,
-  fontSize = "1rem", // New prop for font size
+ 
 }) => {
   const [displayedText, setDisplayedText] = useState("");
   const [isCursorVisible, setIsCursorVisible] = useState(true);
   const [isTypingComplete, setIsTypingComplete] = useState(false);
+ 
 
   const typeText = useCallback(() => {
     let index = 0;
@@ -56,12 +57,13 @@ const Typewriter = ({
     );
   }, [isTypingComplete, displayedText, lastWordColor]);
 
+
+
   if (!text) return null;
 
   return (
-    <span style={{ fontSize: fontSize }}>
-      {" "}
-      {/* Apply font size here */}
+    <span className={className}>
+    
       {renderText}
       <span style={{ visibility: isCursorVisible ? "visible" : "hidden" }}>
         {cursorChar}
