@@ -1,7 +1,7 @@
 function Data({ project }) {
   return (
     <div className="">
-      <div className="group relative w-72  hover:scale-105 transition-all duration-150 uppercase md:w-fit ">
+      <div className="group relative w-72  hover:scale-105 transition-all duration-500 uppercase md:w-fit ">
         <img
           src={project.thumbnail}
           alt=""
