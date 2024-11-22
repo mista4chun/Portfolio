@@ -3,7 +3,7 @@ import PageNav from "../components/PageNav";
 
 function Resume() {
   return (
-    <section className="bg-[#1e1e1e]">
+    <section className="bg-[#1e1e1e] pb-6">
       <PageNav type="horizontal" />
       <DownloadResume />
 
@@ -34,15 +34,15 @@ function Resume() {
                 </div>
               </div>
             </article>
-            <article className="mt-2 flex flex-col space-y-12 ">
-              <div className="pb-2.5">
+            <article className="mt-2 flex flex-col space-y-[30px] md:space-y-12 ">
+              <div className="pb-1">
                 <p className="font-semibold uppercase text-blue-400">
                   Modern HTML & CSS From The Beginning
                 </p>
                 <p>Udemy INC. and Traversy Media.</p>
                 <p>2023</p>
               </div>
-              <div className="pb-2">
+              <div className="pb-1">
                 <p className="font-semibold uppercase text-blue-400">
                   Modern JavaScript From The Beginning 2.0
                 </p>
@@ -56,7 +56,7 @@ function Resume() {
                 <p>CodeWithMosh</p>
                 <p>2023</p>
               </div>
-              <div className="pb-2">
+              <div className="pb-2.5">
                 <p className="font-semibold uppercase text-blue-400">
                   The Ultimate React course, Next.js, Redux
                 </p>
@@ -101,7 +101,7 @@ function Resume() {
                 </div>
               </div>
             </article>
-            <article className="mt-2 flex flex-col space-y-12">
+            <article className="mt-2 flex flex-col  space-y-12">
               <div className="pb-2.5">
                 <p className="font-semibold uppercase text-blue-400">
                   Uplift Nigeria. Bauchi State, Nigeria
