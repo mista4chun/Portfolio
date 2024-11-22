@@ -1,9 +1,11 @@
+import DownloadResume from "../components/DownloadResume";
 import PageNav from "../components/PageNav";
 
 function Resume() {
   return (
     <section className="bg-[#1e1e1e]">
       <PageNav type="horizontal" />
+      <DownloadResume />
 
       <div className="mx-auto mt-10 grid max-w-7xl px-3 lg:grid-cols-2">
         <div className="pb-6">
@@ -32,7 +34,7 @@ function Resume() {
                 </div>
               </div>
             </article>
-            <article className="mt-2 flex flex-col space-y-7 md:space-y-12">
+            <article className="mt-2 flex flex-col space-y-12 ">
               <div className="pb-2.5">
                 <p className="font-semibold uppercase text-blue-400">
                   Modern HTML & CSS From The Beginning

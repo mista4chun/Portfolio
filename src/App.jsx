@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import Settings from "./pages/Settings";
 import PageTitle from "./components/PageTitle";
 
+
 function App() {
   return (
     <BrowserRouter>
