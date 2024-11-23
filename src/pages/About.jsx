@@ -11,7 +11,7 @@ function About() {
   }, [progress]);
 
   return (
-    <section className="bg-[#1e1e1e]">
+    <section className="bg-[#1e1e1e] ">
       <PageNav type="horizontal" />
       <div className="mx-auto mt-3 max-w-full px-6 ">
         <img
@@ -32,7 +32,7 @@ function About() {
             <div className="">
               <div className="flex items-center space-x-1">
                 <h3 className="font-semibold">Name:</h3>
-                <p>Hilary Samson</p>
+                <p >Hilary Samson</p>
               </div>
 
               <div className="flex items-center space-x-1">
@@ -71,7 +71,7 @@ function About() {
             </div>
           </div>
         </article>
-        <p className="mb-5 md:px-3">
+        <p className="mb-5 md:px-3 ">
           I'm highly driven to learn but also deeply detail-oriented, which is a
           powerful combination for problem-solving in tech and life. These
           traits contribute to my ability to find solutions, even in the face of

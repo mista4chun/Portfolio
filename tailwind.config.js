@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         bigFont: ["Recursive", "sans-serif"],
-        redHat: ["Red Hat Text", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
       height: {
         screen: "100dvh",
