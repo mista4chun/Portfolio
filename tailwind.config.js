@@ -13,7 +13,7 @@ export default {
         screen: "100dvh",
       },
       colors: {
-        'scroll-thumb': '#32405b', // Thumb color
+        'scroll-thumb': '#454a4d', // Thumb color
         'scroll-track': '#32405b', // Track color
       },
       scrollbar: {
