@@ -6,7 +6,7 @@ function Projects() {
   return (
     <section className="bg-[#1e1e1e] ">
       <PageNav type="horizontal" />
-      <h1 className="mx-auto mt-3 max-w-7xl px-4 font-semibold">
+      <h1 className="mx-auto mt-3 pb-8 max-w-7xl px-4 font-semibold">
         Stuff I've built...
       </h1>
       <div className="mx-auto mt-6 grid max-w-7xl gap-5 px-4 md:grid-cols-3">

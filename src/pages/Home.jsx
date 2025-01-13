@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
+    
     <section className="bg-[#1e1e1e]">
       <PageNav type="horizontal" />
       <div className="mx-auto mt-36 md:flex max-w-2xl items-center justify-between  pb-24 md:max-w-full md:px-12 px-6">

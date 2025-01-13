@@ -6,19 +6,16 @@ import Footer from "../components/Footer";
 
 function AppLayout() {
   return (
-    <section >
+    <section className="grid min-h-screen grid-rows-[auto_1fr_auto]">
       <Header />
-      <div className="grid h-screen grid-cols-[auto_auto_1fr]">
+      <main className="grid grid-cols-[auto_auto_1fr]">
         <Sidebar />
         <Side />
-        <main className="overflow-y-auto  scrollbar-thin scrollbar-thumb-scroll-thumb scrollbar-track-transparent  grid grid-rows-[1fr_auto]">
+        <div className="scrollbar-thin scrollbar-thumb-scroll-thumb scrollbar-track-transparent grid max-h-[100vh] overflow-y-auto">
           <Outlet />
-        
-
-          <Footer />
-        
-        </main>
-      </div>
+        </div>
+      </main>
+      <Footer />
     </section>
   );
 }
