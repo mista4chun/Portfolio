@@ -1,9 +1,25 @@
 import DownloadResume from "../components/DownloadResume";
 import PageNav from "../components/PageNav";
 
-import { motion } from "motion/react"
+import { motion } from "motion/react";
 
 function Resume() {
+  // Variants for the container (ul)
+  const containerVariants = {
+    hidden: { opacity: 0 }, // Initial state
+    visible: {
+      opacity: 1, // Target state
+      transition: {
+        staggerChildren: 0.3, // Stagger animation for children
+      },
+    },
+  };
+
+  // Variants for each item (li)
+  const itemVariants = {
+    hidden: { opacity: 0, x: -20 }, // Start offscreen with opacity 0
+    visible: { opacity: 1, x: 0 }, // Fade in and slide into position
+  };
   return (
     <section className="bg-[#1e1e1e] pb-6">
       <PageNav type="horizontal" />
@@ -36,48 +52,48 @@ function Resume() {
                 </div>
               </div>
             </article>
-            <ul className="mt-2 flex flex-col space-y-[30px] md:space-y-12">
-              <motion.li
-                initial={{ transform: "translateX(-100px)" }}
-                animate={{ transform: "translateX(0px)" }}
-                transition={{ type: "spring" }}
-                className="pb-1"
-              >
+            <motion.ul
+              initial="hidden" // Initial animation state
+              animate="visible" // Target animation state
+              variants={containerVariants} // Apply container animation
+              className="mt-2 flex flex-col space-y-[30px] md:space-y-12"
+            >
+              <motion.li variants={itemVariants} className="pb-1">
                 <p className="font-semibold uppercase text-blue-400">
                   Modern HTML & CSS From The Beginning
                 </p>
                 <p>Udemy INC. and Traversy Media.</p>
                 <p>2023</p>
               </motion.li>
-              <li className="pb-1">
+              <motion.li variants={itemVariants} className="pb-1">
                 <p className="font-semibold uppercase text-blue-400">
                   Modern JavaScript From The Beginning 2.0
                 </p>
                 <p>Traversy Media</p>
                 <p>2023</p>
-              </li>
-              <li className="pb-2">
+              </motion.li>
+              <motion.li variants={itemVariants} className="pb-2">
                 <p className="font-semibold uppercase text-blue-400">
                   The Ultimate Git Course
                 </p>
                 <p>CodeWithMosh</p>
                 <p>2023</p>
-              </li>
-              <li className="pb-2.5">
+              </motion.li>
+              <motion.li variants={itemVariants} className="pb-2.5">
                 <p className="font-semibold uppercase text-blue-400">
                   The Ultimate React course, Next.js, Redux
                 </p>
                 <p>Udemy INCt</p>
                 <p>2024</p>
-              </li>
-              <li>
+              </motion.li>
+              <motion.li variants={itemVariants}>
                 <p className="font-semibold uppercase text-blue-400">
                   Computer Science
                 </p>
                 <p>Abubakar Tafawa balewa University</p>
                 <p>2021</p>
-              </li>
-            </ul>
+              </motion.li>
+            </motion.ul>
           </div>
         </div>
         <div>
@@ -108,16 +124,21 @@ function Resume() {
                 </div>
               </div>
             </article>
-            <article className="mt-2 flex flex-col space-y-12">
-              <div className="pb-2.5">
+            <motion.ul
+              initial="hidden" // Initial animation state
+              animate="visible" // Target animation state
+              variants={containerVariants}
+              className="mt-2 flex flex-col space-y-12"
+            >
+              <motion.li variants={itemVariants} className="pb-2.5">
                 <p className="font-semibold uppercase text-blue-400">
                   Uplift Nigeria. Bauchi State, Nigeria
                 </p>
                 <p>Front-End Developer</p>
                 <p>remote</p>
                 <p>2024 - Present</p>
-              </div>
-              <div className="pb-2">
+              </motion.li>
+              <motion.li variants={itemVariants} className="pb-2">
                 <p className="font-semibold uppercase text-blue-400">
                   nHub Foundation
                 </p>
@@ -125,15 +146,15 @@ function Resume() {
                 <p>physical: Plateau State, Nigeria</p>
 
                 <p>2023 - 2024</p>
-              </div>
-              <div className="pb-2">
+              </motion.li>
+              <motion.li variants={itemVariants} className="pb-2">
                 <p className="font-semibold uppercase text-blue-400">
                   Good Communications
                 </p>
                 <p>physical: Plateau State, Nigeria</p>
                 <p> Sales Rep</p>
                 <p>2019 - 2020</p>
-              </div>
+              </motion.li>
 
               {/* <div className="pb-2">
                 <p className="text-blue-400">Udemy frontend School</p>
@@ -145,7 +166,7 @@ function Resume() {
                 <p>Learnt frontend developement</p>
                 <p>2022</p>
               </div> */}
-            </article>
+            </motion.ul>
           </div>
         </div>
       </div>

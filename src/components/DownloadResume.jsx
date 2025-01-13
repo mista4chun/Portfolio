@@ -10,7 +10,7 @@ const DownloadResume = () => {
         className="flex items-center gap-2 rounded-lg bg-blue-500 px-6 py-3 font-semibold text-white shadow-md transition duration-300 hover:bg-blue-600"
       >
         <motion.div
-          initial={{ transform: "translateX(-100px)" }}
+          initial={{ transform: "translateX(-20px)" }}
           animate={{ transform: "translateX(0px)" }}
           transition={{ type: "spring" }}
         >
