@@ -1,4 +1,5 @@
 import { LuDownload } from "react-icons/lu";
+import {motion } from "motion/react"
 
 const DownloadResume = () => {
   return (
@@ -8,7 +9,13 @@ const DownloadResume = () => {
         download="Hilary_Resume.pdf" // Suggests a name for the downloaded file
         className="flex items-center gap-2 rounded-lg bg-blue-500 px-6 py-3 font-semibold text-white shadow-md transition duration-300 hover:bg-blue-600"
       >
-       <LuDownload  className="text-lg"/>
+        <motion.div
+          initial={{ transform: "translateX(-100px)" }}
+          animate={{ transform: "translateX(0px)" }}
+          transition={{ type: "spring" }}
+        >
+          <LuDownload className="text-lg" />
+        </motion.div>
         Download My Resume
       </a>
     </div>

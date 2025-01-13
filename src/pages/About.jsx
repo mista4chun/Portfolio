@@ -11,11 +11,11 @@ function About() {
   }, [progress]);
 
   return (
-    <section className="bg-[#1e1e1e] ">
+    <section className="bg-[#1e1e1e]">
       <PageNav type="horizontal" />
-      <div className="mx-auto mt-3 max-w-full px-6 ">
+      <div className="mx-auto mt-3 max-w-full px-6">
         <img
-          src="./avatar.jpg"
+          src="./Image.jpg"
           alt=""
           className="h-32 w-32 rounded-full border-4 border-gray-900 md:hidden"
         />
@@ -25,14 +25,14 @@ function About() {
         <article className="grid-col-1 mb-8 grid items-center gap-2 md:grid-cols-2">
           <div className="-ml-4 flex items-center space-x-4 md:-ml-0">
             <img
-              src="./avatar.jpg"
+              src="./Image.jpg"
               alt=""
               className="hidden h-28 w-28 rounded-full border-4 border-gray-900 md:block"
             />
             <div className="">
               <div className="flex items-center space-x-1">
                 <h3 className="font-semibold">Name:</h3>
-                <p >Hilary Samson</p>
+                <p>Hilary Samson</p>
               </div>
 
               <div className="flex items-center space-x-1">
@@ -71,7 +71,7 @@ function About() {
             </div>
           </div>
         </article>
-        <p className="mb-5 md:px-3 ">
+        <p className="mb-5 md:px-3">
           I'm highly driven to learn but also deeply detail-oriented, which is a
           powerful combination for problem-solving in tech and life. These
           traits contribute to my ability to find solutions, even in the face of
@@ -83,7 +83,7 @@ function About() {
         <h2 className="mb-3 text-left text-3xl font-semibold md:text-center">
           skills
         </h2>
-        <article className="grid items-center gap-x-14 gap-y-3 mb-5 md:grid-cols-2 px-3">
+        <article className="mb-5 grid items-center gap-x-14 gap-y-3 px-3 md:grid-cols-2">
           <div className="flex flex-col space-y-3">
             <div>
               <h3>Html & CSS</h3>
@@ -97,7 +97,7 @@ function About() {
 
             <div>
               <h3>Supabase</h3>
-              <ProgressBar progress={75} />
+              <ProgressBar progress={90} />
             </div>
 
             <div>
@@ -107,7 +107,7 @@ function About() {
           </div>
           <div className="flex flex-col space-y-3">
             <div>
-              <h3>React, Redux, React-Router & Nextjs</h3>
+              <h3>React, Redux, React-Router & React Query</h3>
               <ProgressBar progress={90} />
             </div>
 
@@ -118,12 +118,12 @@ function About() {
 
             <div>
               <h3>Git & Postman</h3>
-              <ProgressBar progress={75} />
+              <ProgressBar progress={80} />
             </div>
 
             <div>
-              <h3>Figma & Frama motion</h3>
-              <ProgressBar progress={60} />
+              <h3>Framer motion & Canva</h3>
+              <ProgressBar progress={90} />
             </div>
           </div>
         </article>

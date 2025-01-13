@@ -1,6 +1,6 @@
 function Data({ project }) {
   return (
-    <div className="">
+    <div>
       <div className="group relative w-72  hover:scale-105 transition-all duration-500 uppercase md:w-fit ">
         <img
           src={project.thumbnail}
@@ -39,9 +39,8 @@ function Data({ project }) {
       </h1>
       {/* <p className="text-sm mb-2">{project.description}</p> */}
       <div className="flex items-center gap-5 uppercase">
-        <p>{project.tags[0]} </p>
-        <p>{project.tags[1]}</p>
-        <p>{project.tags[2]}</p>
+        <p className="text-sm font-medium font-montserrat">{project.tags.join(" ")} </p>
+     
       </div>
     </div>
   );

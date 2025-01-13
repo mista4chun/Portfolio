@@ -9,7 +9,7 @@ function PageNav({ type }) {
   const styles = {
     vertical: "text-xs leading-relaxed ",
     horizontal:
-      "flex items-center  border  md:text-sm  bg-[#181818] border-[#2b2b2b]",
+      "flex  items-center  border  md:text-sm  bg-[#181818] border-[#2b2b2b]",
   };
 
   return (

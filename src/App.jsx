@@ -6,36 +6,27 @@ import Resume from "./pages/Resume";
 import Github from "./pages/Github";
 import PageNotFound from "./pages/PageNotFound";
 import Projects from "./pages/Projects";
-import Sidebar from "./components/Sidebar";
-import Side from "./components/Side";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Settings from "./pages/Settings";
-import PageTitle from "./components/PageTitle";
 
+import Settings from "./pages/Settings";
+import AppLayout from "./ui/AppLayout";
+import PageTitle from "./components/PageTitle";
 
 function App() {
   return (
     <BrowserRouter>
-      <section className="grid h-screen grid-rows-[auto_1fr_auto]">
-        <PageTitle />
-        <Header />
-        <div className="grid grid-cols-[auto_auto_1fr]">
-          <Sidebar />
-          <Side />
-
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="resume" element={<Resume />} />
-            <Route path="github" element={<Github />} />
-            <Route path="projects" element={<Projects />} />
-            <Route path="settings" element={<Settings />} />
-            <Route path="*" element={<PageNotFound />} />
-          </Routes>
-        </div>
-        <Footer />
-      </section>
+      <PageTitle />
+      <Routes>
+        <Route element={<AppLayout />}>
+        
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="resume" element={<Resume />} />
+          <Route path="github" element={<Github />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="settings" element={<Settings />} />
+        </Route>
+          <Route path="*" element={<PageNotFound />} />
+      </Routes>
     </BrowserRouter>
   );
 }

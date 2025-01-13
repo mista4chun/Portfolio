@@ -1,6 +1,8 @@
 import DownloadResume from "../components/DownloadResume";
 import PageNav from "../components/PageNav";
 
+import { motion } from "motion/react"
+
 function Resume() {
   return (
     <section className="bg-[#1e1e1e] pb-6">
@@ -34,43 +36,48 @@ function Resume() {
                 </div>
               </div>
             </article>
-            <article className="mt-2 flex flex-col space-y-[30px] md:space-y-12 ">
-              <div className="pb-1">
+            <ul className="mt-2 flex flex-col space-y-[30px] md:space-y-12">
+              <motion.li
+                initial={{ transform: "translateX(-100px)" }}
+                animate={{ transform: "translateX(0px)" }}
+                transition={{ type: "spring" }}
+                className="pb-1"
+              >
                 <p className="font-semibold uppercase text-blue-400">
                   Modern HTML & CSS From The Beginning
                 </p>
                 <p>Udemy INC. and Traversy Media.</p>
                 <p>2023</p>
-              </div>
-              <div className="pb-1">
+              </motion.li>
+              <li className="pb-1">
                 <p className="font-semibold uppercase text-blue-400">
                   Modern JavaScript From The Beginning 2.0
                 </p>
                 <p>Traversy Media</p>
                 <p>2023</p>
-              </div>
-              <div className="pb-2">
+              </li>
+              <li className="pb-2">
                 <p className="font-semibold uppercase text-blue-400">
                   The Ultimate Git Course
                 </p>
                 <p>CodeWithMosh</p>
                 <p>2023</p>
-              </div>
-              <div className="pb-2.5">
+              </li>
+              <li className="pb-2.5">
                 <p className="font-semibold uppercase text-blue-400">
                   The Ultimate React course, Next.js, Redux
                 </p>
                 <p>Udemy INCt</p>
                 <p>2024</p>
-              </div>
-              <div>
+              </li>
+              <li>
                 <p className="font-semibold uppercase text-blue-400">
                   Computer Science
                 </p>
                 <p>Abubakar Tafawa balewa University</p>
                 <p>2021</p>
-              </div>
-            </article>
+              </li>
+            </ul>
           </div>
         </div>
         <div>
@@ -101,7 +108,7 @@ function Resume() {
                 </div>
               </div>
             </article>
-            <article className="mt-2 flex flex-col  space-y-12">
+            <article className="mt-2 flex flex-col space-y-12">
               <div className="pb-2.5">
                 <p className="font-semibold uppercase text-blue-400">
                   Uplift Nigeria. Bauchi State, Nigeria
