@@ -10,6 +10,24 @@
   },
   {
     "id": 1,
+    "name": "the Hangman Game",
+    "thumbnail": "./images/hangman.jpg",
+    "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
+    "tags": ["React", "Tailwindcss", "Redux", "Motion"],
+    "source_code": "https://github.com/mista4chun/The-hangman-game",
+    "demo": "https://the-hangman-game-pied.vercel.app"
+  },
+  {
+    "id": 2,
+    "name": "Character Counter",
+    "thumbnail": "./images/characterCounter.jpg",
+    "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
+    "tags": ["Javascript", "Tailwindcss"],
+    "source_code": "https://github.com/mista4chun/xter-counter",
+    "demo": "https://xter-kounta.netlify.app"
+  },
+  {
+    "id": 3,
     "name": "Fast Pizza App",
     "thumbnail": "./images/FastPizza.jpg",
     "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
@@ -18,7 +36,7 @@
     "demo": "https://fast-pizza-plum.vercel.app/"
   },
   {
-    "id": 2,
+    "id": 4,
     "name": "Product list with cart",
     "thumbnail": "./images/preview.jpg",
     "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
@@ -27,7 +45,7 @@
     "demo": "https://product-list-with-cart-femc.netlify.app"
   },
   {
-    "id": 3,
+    "id": 5,
     "name": "e-commerce Product page",
     "thumbnail": "./images/large4.jpeg",
     "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
@@ -36,7 +54,7 @@
     "demo": "https://e-commercefemc.netlify.app"
   },
   {
-    "id": 4,
+    "id": 6,
     "name": "IP address tracker",
     "thumbnail": "./images/large3.jpeg",
     "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
@@ -45,7 +63,7 @@
     "demo": "https://ip-address-tracker-femc.netlify.app"
   },
   {
-    "id": 5,
+    "id": 7,
     "name": "Link Shortener",
     "thumbnail": "./images/large2.jpeg",
     "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know ",
@@ -54,7 +72,7 @@
     "demo": "https://shortlyx.netlify.app"
   },
   {
-    "id": 6,
+    "id": 8,
     "name": "FlixxApp",
     "thumbnail": "./images/large5.jpeg",
     "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
@@ -63,7 +81,7 @@
     "demo": "https://flixx-olive.vercel.app/"
   },
   {
-    "id": 7,
+    "id": 9,
     "name": "Tracalorie",
     "thumbnail": "./images/large6.jpeg",
     "description": "The player is asked to guess a number correct and be generated randomly. The player will get a feedback and get to know if they are right or wrong. If the player is wrong, the player has to try again. The game continues until the player correctly guesses the number",
