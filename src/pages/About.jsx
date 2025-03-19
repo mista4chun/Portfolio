@@ -5,8 +5,7 @@ import { TbZodiacGemini } from "react-icons/tb";
 import { AnimatePresence, motion } from "motion/react";
 
 const bioText = [
-  "I'm highly driven to learn but also deeply detail-oriented,",
-  "which is a powerful combination for problem-solving in tech and life.",
+  "I'm highly driven to learn but also deeply detail-oriented, which is a powerful combination for problem-solving in tech and life.",
   "These traits contribute to my ability to find solutions,even in the face of frustrating errors.",
   "This persistence, along with my open-mindedness in seeking help and refining my approach, likely serves me well in overcoming challenges.",
 ];
