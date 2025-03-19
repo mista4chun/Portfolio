@@ -1,11 +1,18 @@
-function Data({ project }) {
+import { motion } from "motion/react";
+
+function Data({ project, divVariants, i }) {
   return (
-    <div>
-      <div className="group relative w-72  hover:scale-105 transition-all duration-500 uppercase md:w-fit ">
+    <motion.div
+      variants={divVariants}
+      initial="hidden"
+      animate="visible"
+      custom={i}
+    >
+      <div className="group relative w-72 uppercase transition-all duration-500 hover:scale-105 md:w-fit">
         <img
           src={project.thumbnail}
           alt=""
-          className="h-72 w-72 md:h-80 md:w-full  rounded-3xl"
+          className="h-72 w-72 rounded-3xl md:h-80 md:w-full"
         />
         <div className="absolute inset-0 group-hover:bg-black/50 hover:rounded-3xl">
           <div className="absolute inset-0 flex items-center justify-center transition-all duration-500">
@@ -13,7 +20,7 @@ function Data({ project }) {
               <div className="hidden text-center group-hover:block">
                 <a
                   href={project.source_code}
-                  className="border-[#01b6cd] pb-1 font-semibold hover:text-[#01b6cd] group-hover:border-b-2"
+                  className="border-[#01b6cd] pb-1 font-semibold group-hover:border-b-2 hover:text-[#01b6cd]"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -23,7 +30,7 @@ function Data({ project }) {
               <div className="hidden text-center group-hover:block">
                 <a
                   href={project.demo}
-                  className="border-[#01b6cd] pb-1 font-semibold hover:text-[#01b6cd] group-hover:border-b-2"
+                  className="border-[#01b6cd] pb-1 font-semibold group-hover:border-b-2 hover:text-[#01b6cd]"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -39,10 +46,11 @@ function Data({ project }) {
       </h1>
       {/* <p className="text-sm mb-2">{project.description}</p> */}
       <div className="flex items-center gap-5 uppercase">
-        <p className="text-sm font-medium font-montserrat">{project.tags.join(" ")} </p>
-     
+        <p className="font-montserrat text-sm font-medium">
+          {project.tags.join(" ")}{" "}
+        </p>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
